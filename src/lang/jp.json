@@ -1,0 +1,21 @@
+{
+    "validate": {
+        "required": "Trường này không được trống.",
+        "max": "Nhập tối đa {msg} ký tự.",
+        "min": "Nhập tổi thiểu {msg} ký tự.",
+        "email": "Định dạng Email không đúng."
+    },
+    "auth": {
+        "login": "Đăng nhập",
+        "email": "Email",
+        "username": "Username",
+        "password": "Mật khẩu",
+        "rememberme" : "Ghi nhớ mật khẩu",
+        "sign-in-with": "Đăng nhập bằng tài khoản",
+        "dont-have-account": "Chưa có tài khoản",
+        "register": "Đăng ký",
+        "auth-copyright": "2023 create with Admin",
+        "create-new-account": "Tạo tài khoản mới",
+        "already-have-account": "Đã có tài khoản"
+    }
+}

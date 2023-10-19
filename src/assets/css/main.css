@@ -1,0 +1,54 @@
+@import './base.css';
+:root {
+  --nav-width-open: 256px;
+  --nav-width-close: 56px;
+  --topbar-height: 60px;
+  --footer-height: 40px;
+  
+  --background-gray: #eee;
+  --border-gray: #999;
+  --text-gray: #333;
+}
+
+#none-siderbar{
+  background: rgb(var(--v-theme-surface));
+}
+#siderbar{
+  background: rgb(var(--v-theme-surface));
+}
+#p-header{
+  border-bottom: 1px #333 solid;
+  background: rgb(var(--v-theme-surface));
+  justify-content: space-between;
+}
+#p-siderbar-left{
+  min-width: 300px;
+  display: block;
+  height: calc(100vh - 100px);
+  float: left;
+  border-right: 1px #ccc solid;
+}
+#p-siderbar-right{
+  min-width: 300px;
+  display: block;
+  height: calc(100vh - 100px);
+  float: right;
+  border-left: 1px #ccc solid;
+}
+#p-content{
+  margin-left: 300px;
+  margin-right: 300px;
+  height: calc(100vh - 100px);
+  padding: 10px;
+}
+#p-footer{
+  width: 100%;
+  clear: both;
+  border-top: 1px #ccc solid;
+  height: 35px;
+} 
+#p-append{
+  position: fixed;
+  bottom: 0;
+
+}

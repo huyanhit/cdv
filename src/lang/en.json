@@ -1,0 +1,36 @@
+{
+    "validate": {
+        "required": "Trường này không được trống.",
+        "max": "Nhập tối đa {msg} ký tự.",
+        "min": "Nhập tổi thiểu {msg} ký tự.",
+        "email": "Định dạng Email không đúng."
+    },
+    "site":{
+        "slogan":"Cổng Thông tin & Dịch vụ Online"
+    },
+    "auth": {
+        "login": "Đăng nhập",
+        "email": "Email",
+        "username": "Username",
+        "password": "Mật khẩu",
+        "reply-password": "Nhập lại mật khẩu",
+        "remember-me" : "Ghi nhớ mật khẩu",
+        "forget-password" : "Quên mật khẩu",
+        "sign-in-with": "Đăng nhập bằng tài khoản",
+        "dont-have-account": "Chưa có tài khoản",
+        "register": "Đăng ký",
+        "auth-copyright": "2023 create with Admin",
+        "create-new-account": "Tạo tài khoản mới",
+        "already-have-account": "Đã có tài khoản",
+        "back": "Trở lại trang đăng nhập"
+    },
+    "home":{
+        "service-port-online":"Service port online",
+        "find-service":"Find service",
+        "home": "Home",
+        "procedure": "Procedure",
+        "contact":"Contact",
+        "tiengviet": "Tiếng việt",
+        "english": "English"
+    }
+}
